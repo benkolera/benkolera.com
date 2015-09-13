@@ -44,4 +44,4 @@ make the reloading happen.
 Each save in your editor will be picked up by the Hakyll watch server and
 recompiled into your _site directory. The nodejs server watching _site will
 notify the javascript running on your blog (added by the chrome plugin) through
-a socket.io connection and reload the page accordingly. Very helpful!
+a websocket connection and reload the page accordingly. Very helpful!
