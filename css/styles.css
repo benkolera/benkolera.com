@@ -86,6 +86,8 @@ pre.sourceCode {
     border-radius: 5px;
     overflow-x: auto;
     font-size: 14px;
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 .tag-cloud a {
