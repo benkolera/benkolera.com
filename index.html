@@ -1,0 +1,56 @@
+---
+title: Home
+---
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Welcome!</h2>
+            <p>
+                Hi, my name is Ben Kolera and I am a Full-Stack Web Developer
+                in love with the safety and composability of Functional
+                Programming. You can find more about me and my story,
+                <a href="/about.html">here</a>.
+            </p>
+            <p>
+                The goal of this blog is to share my thoughts and the message
+                that Functional Programming gives a lot of wins even for stock
+                standard web programming. You do not need to be a computer
+                scientist to appreciate Haskell!! More on why I love Haskell
+                <a href="/posts/2015-09-13-why_haskell.html">here</a>.
+            </p>
+            <p>
+                I also co-organise the <a href="http://bfpg.org/">Brisbane FP
+                Group</a> and speak there semi-regularly, so I'll also record my
+                talks <a href="/talks.html">here</a>.
+            </p>
+        </div>
+    </div>
+</section>
+<br/>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Recent Blog Posts</h2>
+            $partial("templates/post-list.html")$
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Recent Talks</h2>
+            $partial("templates/talk-list.html")$
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Tags</h2>
+            <div class="tag-cloud">
+                $tag-cloud$
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,7 @@
+<ul>
+    $for(talks)$
+        <li>
+            <a href="$url$">$title$</a> - $date$ at $partial("templates/talk-location.html")$
+        </li>
+    $endfor$
+</ul>

@@ -1,0 +1,29 @@
+<section>
+    <h2>$title$</h2>
+    <div class="row">
+        <div class="col-xs-12">
+            $body$
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+          $if(slides)$
+            <a class="btn btn-xs"href="$slides$" target="_blank">Slides</a>
+          $endif$
+          $if(source)$
+            <a class="btn btn-xs" href="$source$" target="_blank">Source Code </a>
+          $endif$
+        </div>
+    </div>
+    <hr/>
+    <div class="videoWrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/$ytid$" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12">
+          <hr/>
+          $date$ at <a target="_blank" href="$locationUrl$">$location$</a>
+      </div>
+  </div>
+</div>

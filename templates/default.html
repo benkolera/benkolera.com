@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Ben Kolera's Blog - $title$</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700|Josefin+Sans:400,700,600|Source+Code+Pro' rel='stylesheet' type='text/css'>-->
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700|Josefin+Sans:400,700,600|Source+Code+Pro|Oswald:400,700' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+          Home
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+          <li $if(active-posts)$ class="active" $endif$>
+          <a href="/posts.html">Blog Posts</a>
+        </li>
+        <li $if(active-talks)$ class="active" $endif$>
+          <a href="/talks.html">Talks</a>
+        </li>
+        <li $if(active-about)$ class="active" $endif$>
+          <a href="/about.html">About Me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="masthead">  
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>The Functional Web
+          <p class="lead">Tales of a Haskell Web Developer</p>
+        </h1>
+      </div>
+    </div> 
+  </div><!-- /cont -->
+  
+ 
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12"> 
+        <div id="content">
+            $body$
+        </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-sm-9">
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/">
+              <img alt="Creative Commons Licence"
+                   style="border-width:0"
+                   src="https://i.creativecommons.org/l/by/3.0/au/88x31.png" />
+          </a>
+          <br class="visible-xs"/ >
+          <small>
+          Content licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/">
+              Creative Commons Attribution 3.0 License
+          </a>.</small>
+      </div>
+      <div class="col-xs-4 col-sm-3 text-right">
+        <ul class="list-inline">
+            <li><a target="_blank" href="https://github.com/benkolera">
+                <i class="fa fa-github fa-2x"></i>
+            </a></li>
+            <li><a target="_blank "href="https://twitter.com/benkolera">
+                <i class="fa fa-twitter fa-2x"></i></li>
+            </a></li>
+            <li><a target="_blank" href="https://reddit.com/u/benkolera">
+                <i class="fa fa-reddit fa-2x"></i></li>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-31069776-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

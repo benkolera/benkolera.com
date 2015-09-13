@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/benkolera/benkolera.com",
+  "authors": [
+    "Ben Kolera <ben.kolera@gmail.com>"
+  ],
+  "description": "Blog for benkolera.com",
+  "license": "CC-BY",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}

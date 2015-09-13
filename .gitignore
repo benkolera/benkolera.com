@@ -1,0 +1,7 @@
+/.cabal-sandbox
+/_cache
+/_site
+/bower_components
+/cabal.sandbox.config
+/dist
+/node_modules
